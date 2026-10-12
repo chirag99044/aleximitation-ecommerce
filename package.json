@@ -1,0 +1,33 @@
+{
+  "name": "aleximitation-ecommerce",
+  "version": "1.0.0",
+  "description": "A responsive e-commerce website built with HTML, Tailwind CSS,\r JavaScript, and Firebase.",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/styles.css",
+    "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirag99044/aleximitation-ecommerce.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "aleximitation",
+    "tailwindcss",
+    "firebase"
+  ],
+  "author": "Chirag",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chirag99044/aleximitation-ecommerce/issues"
+  },
+  "homepage": "https://github.com/chirag99044/aleximitation-ecommerce#readme",
+  "dependencies": {
+    "firebase": "^13.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
